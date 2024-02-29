@@ -4,6 +4,9 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background: #080808;
@@ -280,7 +283,87 @@ nav ul li a:hover::after {
 .btn:hover{
     background: #0b9a44df;
 }
-/*--------------------banne------------------*/
+/*--------------------contact------------------*/
+#contact {
+    padding: 50px 250px;
+  }
+  .contact-left {
+    flex-basis: 35%;
+  }
+  .contact-right {
+    flex-basis: 60%;
+  }
+  .contact-left p {
+    margin-top: 30px;
+  }
+  .contact-left p a{
+    color: #fff;
+  }
+  .contact-left p i {
+    color: #25c665;
+    margin-right: 15px;
+    font-size: 25px;
+  }
+  
+  .social-icons {
+    margin-top: 30px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #e2e5bb;
+    display: inline-block;
+    transition: transform 0.5s;
+  }
+  .social-icons a:hover {
+    color: #25c665df;
+    transform: translateY(-12px);
+  }
+  .btn.btn2 {
+    display: inline-block;
+    background: #25c665;
+  }
+  .contact-right form {
+    width: 100%;
+  }
+  form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  form .btn.btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #4b4a4a;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .copyright i{
+    color: #e6a9bd;
+  }
+  #msg{
+    color: #61b752;
+    margin-top: -30px;
+    display: block;
+    font-size: 18px;
+  }
+  
 /*--------------------css for small screen-------------------*/
 nav .fas{
     display: none;
@@ -339,5 +422,14 @@ nav .fas{
     }
     .about-col-1 {
         flex-basis: 70%;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1 {
+        margin-bottom: 30px;
+    }
+    #contact {
+        padding: 50px 50px;
     }
 }
