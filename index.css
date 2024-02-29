@@ -301,7 +301,10 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #25c665ab;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 25px 45px rgba(0,0,0,0.2);
+        border-radius: 30px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
         position: fixed;
         top: 0;
         right: -200px;
