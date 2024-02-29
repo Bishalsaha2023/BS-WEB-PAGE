@@ -87,7 +87,7 @@ nav ul li a:hover::after {
 #about {
     padding: 80px 0;
     color: #ababab;
-    margin-left: 40px;
+    margin-left: 250px;
 }
 
 .row {
@@ -163,7 +163,7 @@ nav ul li a:hover::after {
 }
 /*-------------------services-------------------*/
 #services {
-    padding: 30px 40px;
+    padding: 50px 250px;
 }
 
 .services-list {
@@ -207,7 +207,7 @@ nav ul li a:hover::after {
 }
 /*--------------------------portfolio---------------------*/
 #portfolio{
-    padding: 50px 40px;
+    padding: 50px 250px;
 }
 .work-list{
     display: grid;
@@ -280,6 +280,7 @@ nav ul li a:hover::after {
 .btn:hover{
     background: #0b9a44df;
 }
+/*--------------------banne------------------*/
 /*--------------------css for small screen-------------------*/
 nav .fas{
     display: none;
@@ -324,5 +325,19 @@ nav .fas{
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+    #about {
+        padding: 80px 0;
+        color: #ababab;
+        margin-left: 40px;
+    }
+    #services {
+        padding: 50px 40px;
+    }
+    #portfolio{
+        padding: 50px 40px;
+    }
+    .about-col-1 {
+        flex-basis: 70%;
     }
 }
